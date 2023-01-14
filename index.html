@@ -1,0 +1,26 @@
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div>
+            <h1>Generate a</h1>
+            <h1 style="color: #4ADF86">random password</h3>
+            <h4>Never use an insecure password again.</h4>
+        </div>
+        <div>
+            <p>Password Length: (max. 15 chars)</p>
+            <input id="length" type="number">
+            <button id="generate">Generate passwords</button>
+            <p id="warning"></p>
+        </div>
+        <hr>
+        <div>
+            <button id="random1" onclick="copy1()"></button>
+            <button id="random2" onclick="copy2()"></button>
+        </div>
+        <p id="announcement"></p>
+        <script src="index.js"></script>
+    </body>
+</html>
